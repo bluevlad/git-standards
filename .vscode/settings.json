@@ -1,0 +1,59 @@
+{
+  // ============================================
+  // Git Commit Message 설정
+  // ============================================
+
+  // 커밋 메시지 입력 시 에디터 사용
+  "git.useEditorAsCommitInput": true,
+
+  // 커밋 입력 소스
+  "git.inputValidation": true,
+  "git.inputValidationLength": 72,
+  "git.inputValidationSubjectLength": 50,
+
+  // 브랜치 보호 (main/master 직접 커밋 경고)
+  "git.branchProtection": ["main", "master"],
+  "git.branchProtectionPrompt": "alwaysPrompt",
+
+  // ============================================
+  // Conventional Commits 확장 설정
+  // ============================================
+
+  "conventionalCommits.scopes": [
+    "auth",
+    "api",
+    "ui",
+    "db",
+    "config",
+    "deps",
+    "core"
+  ],
+
+  "conventionalCommits.gitmoji": false,
+  "conventionalCommits.autoCommit": false,
+  "conventionalCommits.showNewVersionNotes": false,
+
+  // ============================================
+  // 에디터 설정 (커밋 메시지 작성 시)
+  // ============================================
+
+  "[git-commit]": {
+    "editor.rulers": [50, 72],
+    "editor.wordWrap": "off",
+    "editor.formatOnSave": false
+  },
+
+  // ============================================
+  // 기타 Git 관련 설정
+  // ============================================
+
+  // 자동 fetch
+  "git.autofetch": true,
+  "git.autofetchPeriod": 180,
+
+  // 병합 후 브랜치 삭제 확인
+  "git.branchSortOrder": "alphabetically",
+
+  // Git Graph 확장 설정 (선택)
+  "git-graph.repository.commits.showSignatureStatus": true
+}

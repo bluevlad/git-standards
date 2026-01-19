@@ -1,0 +1,15 @@
+# <type>(<scope>): <subject>
+#
+# <body>
+#
+# <footer>
+
+# ============================================
+# Type:
+#   feat, fix, docs, style, refactor,
+#   test, build, ci, perf, chore, revert
+#
+# Subject: 50자 이내, 명령형, 마침표 없음
+# Body: 72자 줄바꿈, 무엇을/왜 변경했는지
+# Footer: Closes #123, BREAKING CHANGE: ...
+# ============================================

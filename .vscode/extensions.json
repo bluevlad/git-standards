@@ -1,0 +1,28 @@
+{
+  // ============================================
+  // 권장 VS Code 확장 프로그램
+  // ============================================
+
+  "recommendations": [
+    // Conventional Commits 지원
+    "vivaxy.vscode-conventional-commits",
+
+    // Git 커밋 메시지 린터
+    "joshbolduc.commitlint",
+
+    // Git Graph - 브랜치 시각화
+    "mhutchie.git-graph",
+
+    // GitLens - Git 기능 강화
+    "eamodio.gitlens",
+
+    // Git History - 커밋 히스토리 조회
+    "donjayamanne.githistory",
+
+    // ESLint (commitlint와 연동)
+    "dbaeumer.vscode-eslint"
+  ],
+
+  // 설치 권장하지 않는 확장
+  "unwantedRecommendations": []
+}
